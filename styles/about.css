@@ -1,0 +1,48 @@
+body {
+  background-color: #181818;
+  color: #fff;
+}
+
+#main h2, p{
+  text-align: center;
+  font-family: "Lucida Console";
+}
+
+#main h2 {
+  font-size: 50px;
+}
+
+#main {
+  margin-top: 5%;
+  line-height: 0.5;
+}
+
+#main p {
+  color: #707070;
+}
+
+#mypix {
+  margin-left: 5%;
+  margin-top: 8%;
+}
+
+#note {
+  max-width: 50%;
+  margin-left: 40%;
+  margin-top: -30%;
+  padding: 2%;
+}
+
+#note h2, p {
+  font-family: "Lucida Console";
+}
+
+#note h2 {
+  color: #009e66;
+}
+
+#note p {
+  color: #707070;
+  text-align: justify;
+  line-height: 1.5em;
+}

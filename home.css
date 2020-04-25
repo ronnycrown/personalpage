@@ -1,0 +1,44 @@
+body {
+  background-image: url("me.jpg");
+  background-repeat: no-repeat center center/cover;
+}
+
+* {
+  color: #fff;
+  font-family: "Lucida Console";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+#nav {
+  margin-left: 60%;
+  margin-top: -3%;
+}
+
+section {
+  line-height: 0.5;
+}
+
+section h1 {
+  text-align: center;
+  margin-top: 15%;
+  font-size: 50px;
+}
+
+section p {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 30px;
+}
+
+aside {
+  margin-left: 90%;
+  margin-top: 7%;
+}
