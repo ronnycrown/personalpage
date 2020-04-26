@@ -12,6 +12,22 @@ a {
   text-decoration: none;
 }
 
+a:link {
+  color: #fff;
+}
+
+a:visited {
+  color: #707070;
+}
+
+a:hover {
+  color: #009e66;
+}
+
+a:active {
+  color: #181818;
+}
+
 li {
   list-style-type: none;
   display: inline;
