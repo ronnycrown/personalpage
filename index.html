@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="typed/typed.js-2.0.11/src/typed.js"></script>
   <link rel="stylesheet" href="home.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>welcome</title>
@@ -24,7 +25,8 @@
     </header>
     <section>
       <h1>Aderonke Diana Odushola</h1>
-      <p>I'm a Frontend<span style="text-align: center;"> Developer</span></p>
+      <p>I'm a Frontend</p>
+      <span id="typed"></span>
     </section>
     <aside>
       <ul>
@@ -35,5 +37,15 @@
     </ul>
     </aside>
   </main>
+  <script>
+    $('document').ready(function(){
+      console.log("please work!");
+      var typed= new Typed('#typed', {
+        strings:["developer", "animator"],
+
+      });
+    });
+
+  </script>
 </body>
 </html>
